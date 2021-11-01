@@ -1,0 +1,27 @@
+{
+  "name": "clean_secrets",
+  "version": "1.0.0",
+  "description": "bulk remove of gcp secrets",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "exit 0",
+    "delete-secrets": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arinono/clean_secrets.git"
+  },
+  "author": "Aurelien Arino",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Arinono/clean_secrets/issues"
+  },
+  "homepage": "https://github.com/Arinono/clean_secrets#readme",
+  "dependencies": {
+    "@google-cloud/secret-manager": "^3.10.1"
+  },
+  "engines": {
+    "node": ">14"
+  }
+}

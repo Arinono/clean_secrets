@@ -1,0 +1,4 @@
+skip.txt
+gcp_secrets_sa_key.json
+node_modules
+.vscode
